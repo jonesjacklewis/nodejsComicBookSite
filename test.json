@@ -1,0 +1,76 @@
+{
+    "publishers": [
+        "DC Comics"
+    ],
+    "subtitle": "the midas touch",
+    "lc_classifications": [
+        "PN6728.G725 J87 2012"
+    ],
+    "latest_revision": 3,
+    "key": "/books/OL25151266M",
+    "authors": [
+        {
+            "key": "/authors/OL267197A"
+        }
+    ],
+    "publish_places": [
+        "New York"
+    ],
+    "contributions": [
+        "Krul, J. T.",
+        "Giffen, Keith",
+        "Pérez, George, 1954-"
+    ],
+    "isbn_13": [
+        "9781401234867"
+    ],
+    "pagination": "p. cm.",
+    "source_records": [
+        "marc:marc_loc_updates/v39.i52.records.utf8:55496630:761",
+        "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run04.mrc:353032515:3318",
+        "marc:marc_loc_2016/BooksAll.2016.part38.utf8:224916010:805"
+    ],
+    "title": "Green Arrow volume 1",
+    "lccn": [
+        "2011051792"
+    ],
+    "notes": {
+        "type": "/type/text",
+        "value": "\"Originally published in single magazine form in GREEN ARROW 1-6\"--T.p. verso."
+    },
+    "created": {
+        "type": "/type/datetime",
+        "value": "2011-12-29T09:50:21.018873"
+    },
+    "languages": [
+        {
+            "key": "/languages/eng"
+        }
+    ],
+    "dewey_decimal_class": [
+        "741.5/973"
+    ],
+    "local_id": [
+        "urn:sfpl:31223110341105",
+        "urn:sfpl:31223110341113",
+        "urn:sfpl:31223115589633",
+        "urn:sfpl:31223110341121",
+        "urn:sfpl:31223110341139"
+    ],
+    "publish_date": "2012",
+    "publish_country": "nyu",
+    "last_modified": {
+        "type": "/type/datetime",
+        "value": "2020-09-25T16:47:15.213130"
+    },
+    "by_statement": "Dan Jurgens, J.T. Krul, Keith Giffen, George Pérez",
+    "works": [
+        {
+            "key": "/works/OL16416443W"
+        }
+    ],
+    "type": {
+        "key": "/type/edition"
+    },
+    "revision": 3
+}

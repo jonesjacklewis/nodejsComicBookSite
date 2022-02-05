@@ -1,0 +1,168 @@
+/*
+
+CSS Grid code based on https://github.com/fireship-io/224-animated-css-grid
+
+*/
+
+body {
+    background: #000;
+    color: #0074D9;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.centre{
+    margin: 0 auto;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    color: #0074D9;
+    box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
+    box-shadow: rgba(calc(255 - 3), calc(255 - 8), calc(255 - 20), 0.1) 0px 0.15rem 0.5rem, rgba(calc(255 - 2), calc(255 - 8), calc(255 - 20), 0.1) 0px 0.075rem 0.175rem;
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    transition: all 500ms;
+    overflow: hidden;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    text-align: center;
+}
+
+.card > img{
+    max-width: 50%;
+    min-width: 50%;
+    height:30%;
+}
+
+/* .card:hover {
+    box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
+    box-shadow: rgba(calc(255 - 2), calc(255 - 8), calc(255 - 20), 0.1) 0px 0.35em 1.175em, rgba(calc(255 - 2), calc(255 - 8), calc(255 - 20), 0.08) 0px 0.175em 0.5em;
+    transform: translateY(-3px) scale(1.1);
+} */
+
+.grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+}
+
+.singleGrid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+}
+
+
+
+h1 {
+    text-align: center;
+    color: #0074D9
+}
+
+form {
+    margin: 0 auto;
+
+}
+
+.container {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+.search {
+    margin: 0 auto;
+    width: 75%;
+    position: relative;
+    display: flex;
+}
+
+.searchTerm {
+    width: 100%;
+    border: 3px solid #0074D9;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+}
+
+.searchTerm:focus {
+    color: #0074D9;
+}
+
+.searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #0074D9;
+    background: #0074D9;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+select {
+    /* Reset Select */
+    appearance: none;
+    outline: 0;
+    border: 0;
+    box-shadow: none;
+    /* Personalize */
+    flex: 1;
+    padding: 0 1em;
+    color: #0074D9;
+    background-color: white;
+    cursor: pointer;
+    
+
+}
+
+/* Remove IE arrow */
+select::-ms-expand {
+    display: none;
+}
+
+/* Custom Select wrapper */
+.select {
+    position: relative;
+    display: flex;
+    width: 20em;
+    height: 3em;
+    border-radius: .25em;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+/* Arrow */
+.select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1em;
+    background-color: #34495e;
+    transition: .25s all ease;
+    pointer-events: none;
+
+}
+
+/* Transition */
+.select:hover::after {
+    color: #f39c12;
+}

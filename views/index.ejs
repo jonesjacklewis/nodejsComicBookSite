@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jack's Comics | Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://use.fontawesome.com/17e06de630.js"></script>
+</head>
+
+<body>
+    <div class="centre">
+        <div class="card">
+            <h1>Jack's Comics</h1>
+            <ul>
+                <li><a href="addRecordManually">Add Record Manually</a></li>
+                <li><a href="../">Home</a></li>
+            </ul>
+
+            <form action="results" method="post">
+                <label for="criteria">Search for a Comic</label>
+                <input type="text" name="criteria" id="criteria"> <br>
+                <button type="submit">Search</button>
+            </form>
+
+        </div>
+
+
+
+
+    </div>
+
+    <div class="grid">
+        <%-results%>
+
+    </div>
+
+</body>
+
+</html>

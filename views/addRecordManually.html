@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Record Manually</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://use.fontawesome.com/17e06de630.js"></script>
+
+</head>
+
+<body>
+
+    <div class="singleGrid">
+
+        <div class="card">
+            <h1>Enter The Book Details</h1>
+            <a href="../">Home</a>
+        </div>
+
+
+
+        <div class="card centered">
+
+            <form action="arm" method="post">
+
+                <label for="isbn">ISBN</label>
+                <input type="text" name="isbn" id="isbn" required> <br>
+
+                <label for="title">Title</label>
+                <input type="text" name="title" id="title" required> <br>
+
+                <label for="mainCharacter">Main Character(s)</label>
+                <input type="text" name="mainCharacter" id="mainCharacter" required> <br>
+
+                <label for="year">Year</label>
+                <input type="number" name="year" id="year" required min="1900" step="1"> <br>
+
+                <label for="rating">Rating</label>
+                <select name="rating" id="rating">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select> <br>
+
+                <label for="url">URL</label>
+                <input type="text" name="url" id="url" required> <br>
+
+                <label for="img">Image</label>
+                <input type="text" name="img" required id="id"> <br>
+
+                <button type="submit">Add</button>
+
+            </form>
+
+
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
