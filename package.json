@@ -9,10 +9,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "ejs": "^3.1.8",
     "express": "^4.17.1",
-    "ejs": "^1.0.0",
     "isbn-validate": "^1.0.3",
     "nodemon": "^2.0.15",
+    "request": "^2.88.2",
     "sqlite3": "^5.0.2"
   }
 }
